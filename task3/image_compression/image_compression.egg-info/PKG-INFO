@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: image_compression
+Version: 0.1
+Requires-Dist: numpy>=1.19
+Requires-Dist: opencv-python>=4.5
+Dynamic: requires-dist

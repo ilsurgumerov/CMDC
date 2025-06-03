@@ -1,0 +1,12 @@
+pyproject.toml
+setup.py
+image_compression/__init__.py
+image_compression/decoder.py
+image_compression/encoder.py
+image_compression/predictors.py
+image_compression.egg-info/PKG-INFO
+image_compression.egg-info/SOURCES.txt
+image_compression.egg-info/dependency_links.txt
+image_compression.egg-info/requires.txt
+image_compression.egg-info/top_level.txt
+tests/test1.py
