@@ -28,7 +28,7 @@ class ImageEncoder:
                         residuals[row, col] = actual - pred
                     continue
 
-                best_idx = self._select_best_predictor(row, col, row_errors)
+                best_idx = self._select_best_predictor(col, row_errors)
                 pred = PREDICTORS[best_idx](row, col, image)
                 residuals[row, col] = actual - pred
                 self._update_errors(row, col, row_errors, image, actual)
